@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.content .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .wrapper section+section {
+    margin-top: 2rem;
+}
+
+.content .wrapper section:nth-of-type(2) {
+    border-top-style: solid;
+    border-top-color: lightgray;
+    border-top-width: 2px;
+    width: 100%;
+}
+
+input {
+    height: 48px;
+    width: 100%;
+    font-size: 100%;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+}
